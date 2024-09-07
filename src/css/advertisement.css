@@ -1,0 +1,125 @@
+.advertisement-conteiner {
+  background-blend-mode: multiply;
+  background-image: url(/images/advertisement/advertisement-mob.jpg);
+  background-color: rgba(12, 12, 12, 0.8);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 60px;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
+  .advertisement-conteiner {
+    background-image: url(/images/advertisement/advertisement-mob-2x.jpg);
+  }
+}
+.advertisement-titel {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  padding-bottom: 7px;
+  margin-bottom: 28px;
+  margin-left: 28px;
+  margin-right: 28px;
+}
+.advertisement-span {
+  color: rgba(251, 251, 251, 0.5);
+}
+.advertisement-button {
+  min-width: 160px;
+  height: 48px;
+  cursor: pointer;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  padding-top: 15px;
+  padding-right: 43px;
+  padding-bottom: 15px;
+  padding-left: 44px;
+  margin-left: 28px;
+}
+.advertisement-button:hover,
+.advertisement-button:focus {
+  background-color: #fbfbfb;
+  color: #0c0c0c;
+}
+
+@media screen and (min-width: 768px) {
+  .advertisement-conteiner {
+    background-image: url(/images/advertisement/advertisement-tablet.jpg);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 80px;
+  }
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .advertisement-conteiner {
+      background-image: url(/images/advertisement/advertisement-tablet-2x.jpg);
+    }
+  }
+  .advertisement-titel {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 48px;
+    line-height: 0.92;
+    padding-bottom: 8px;
+    margin-bottom: 32px;
+    margin-left: 64px;
+    margin-right: 64px;
+  }
+
+  .advertisement-button {
+    margin-left: 64px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advertisement-conteiner {
+    display: flex;
+    background-image: url(/images/advertisement/advertisement.jpg);
+    padding-top: 83px;
+    padding-bottom: 83px;
+    margin-left: 65px;
+    margin-right: 65px;
+    gap: 140px;
+    margin-bottom: 100px;
+  }
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .advertisement-conteiner {
+      background-image: url(/images/advertisement/advertisement-2x.jpg);
+    }
+  }
+  .advertisement-titel {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 48px;
+    line-height: 0.92;
+    letter-spacing: -0.02em;
+    padding-bottom: 9px;
+    margin-left: 80px;
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+
+  .advertisement-button {
+    margin-left: 0;
+    margin-right: 80px;
+  }
+}
