@@ -1,0 +1,255 @@
+/* #region catalog */
+
+
+.section-catalog {
+    background-color: #fbfbfb;
+}
+
+.section-catalog-title {
+    /* font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c; */
+    margin-top: 0;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.catalog-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.catalog-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    width: 335px;
+    height: 364px;
+    background-color: #f3f3f3;
+}
+
+.catalog-item-container {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 28px;
+}
+
+.catalog-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 279px;
+    height: 262px;
+    margin-bottom: 10px;
+}
+
+.catalog-img {
+
+    width: 208px;
+    height: 226px;
+}
+
+.catalog-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    margin-top: 0;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.catalog-title-sol {
+    display: flex;
+        position: absolute;
+        top: 0;
+        right: 47px;
+}
+
+.catalog-title-change {
+    display: flex;
+        position: absolute;
+        top: 0;
+        right: 32px;
+}
+
+.catalog-title-laptop {
+    display: none;
+}
+
+.catalog-text {
+    /* font-family: "Gilroy", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.5); */
+    margin: 0 auto;
+}
+
+.catalog-mob {
+    display: none;
+}
+
+.catalog-btn {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    text-align: center;
+    color: #fbfbfb;
+    border-radius: 16px;
+    min-width: 160px;
+    height: 48px;
+    background-color: #3350e9;
+    cursor: pointer;
+    bottom: none;
+    display: block;
+    border: none;
+    margin: 26px auto 0;
+}
+
+.catalog-btn:hover,
+.catalog-btn:focus {
+    background-color: #1f3cd4;
+}
+
+@media screen and (min-width: 768px) {
+    /* .container {
+        max-width: 704px;
+        padding-left: 32px;
+        padding-right: 32px;
+    } */
+
+    .section-catalog-title {
+        /* font-weight: 600;
+        font-size: 48px;
+        line-height: 0.92;
+        letter-spacing: -0.02em;
+        color: #0c0c0c; */
+        margin-bottom: 40px;
+    }
+
+    .catalog-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 16px;
+        row-gap: 32px;
+        margin-bottom: 80px;
+    }
+
+    .catalog-item {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0;
+        width: 342px;
+        height: 414px;
+        /* width: calc((100% - 16px * 2) / 3); */
+        /* width: calc((100% - 16px) / 2); */
+    }
+
+    .catalog-item-container {
+        margin: 24px 32px;
+    }
+
+    .catalog-picture {
+        width: 280px;
+        height: 312px;
+    }
+
+    .catalog-img {
+        width: 268px;
+        height: 292px;
+    }
+
+    .catalog-title {
+        position: relative;
+    }
+.catalog-title-sol {
+    display: none;
+}
+    .catalog-title-change {
+        display: none;
+    }
+
+    .catalog-title-laptop {
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 58px;
+    }
+
+        .catalog-title-with {
+            display: none;
+        }
+
+    .catalog-btn {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    /* .container {
+        max-width: 1150px;
+        padding-left: 65px;
+        padding-right: 65px;
+    } */
+
+    .section-catalog-title {
+        width: 100%;
+    }
+
+    .catalog-list {
+        gap: 23px;
+        margin-bottom: 100px;
+    }
+
+    .catalog-item {
+        width: 362px;
+    }
+
+    .catalog-picture {
+        width: 304px;
+        height: 312px;
+    }
+
+    .catalog-img {
+        width: 292px;
+        height: 292px;
+    }
+
+    .catalog-title-sol {
+        display: flex;
+            position: absolute;
+            top: 0;
+            right: 72px;
+    }
+
+.catalog-title-desktop {
+display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.catalog-title-with {
+display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+}
+
+/* #endregion catalog */
