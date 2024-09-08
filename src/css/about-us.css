@@ -76,6 +76,12 @@
   }
 }
 @media screen and (min-width: 1280px) {
+  .container-text {
+    border-radius: 50px;
+    width: 580px;
+    height: 532px;
+    background-color: #f3f3f3;
+  }
   .section-about-us {
     display: flex;
   }
@@ -91,5 +97,12 @@
   .about-us-btn:hover,
   .about-us-btn:focus {
     background: #1f3cd4;
+  }
+  .about-us-btn {
+    margin-left: 125px;
+  }
+  .text-container {
+    margin-top: 80px;
+    padding-left: 60px;
   }
 }
