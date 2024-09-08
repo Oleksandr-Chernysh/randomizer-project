@@ -1,10 +1,4 @@
 /* #region catalog */
-.container {
-    width: 375px;
-    padding: 0;
-    margin: 0 auto;
-}
-
 .section-catalog {
     padding: 0 20px;
     width: 100%;
@@ -120,10 +114,6 @@
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-    }
-
     .section-catalog {
         padding-left: 32px;
         padding-right: 32px;
@@ -152,8 +142,6 @@
         margin-bottom: 0;
         width: 342px;
         height: 414px;
-        /* width: calc((100% - 16px * 2) / 3); */
-        /* width: calc((100% - 16px) / 2); */
     }
 
     .catalog-item-container {
@@ -191,10 +179,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
-    }
-
     .section-catalog {
         padding-left: 65px;
         padding-right: 65px;
