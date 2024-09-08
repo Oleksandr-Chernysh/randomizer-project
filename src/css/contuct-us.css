@@ -147,7 +147,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
-    gap: 40px;
+    /* gap: 40px; */
 }
 .contact-us-box{
     padding: 50px 60px;
