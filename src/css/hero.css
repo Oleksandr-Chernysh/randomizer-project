@@ -1,0 +1,254 @@
+@media (min-width: 375px) {
+    .hero {
+        text-align: left;
+        padding: 28px 0;
+    }
+
+    .hero .container {
+        margin: 100px 20px 60px 20px;
+        height: 0;
+        padding-bottom: 60px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 0.95;
+        letter-spacing: -0.02em;
+        color: #0c0c0c;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: inline;
+    }
+
+    .highlight {
+        color: blue;
+    }
+
+    .responsive-text {
+        white-space: normal;
+    }
+
+    .hero p {
+        font-size: 14px;
+        margin: 10px 0;
+        letter-spacing: -0.02em;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .hero .circles {
+        display: flex;
+        position: absolute;
+        top: 370px;
+        margin-left: 0;
+        margin-bottom: 28px;
+        justify-content: flex-start;
+    }
+
+    .hero .circle {
+        width: 44px;
+        height: 44px;
+        border-radius: 100%;
+        overflow: hidden;
+        margin-left: -12px;
+    }
+
+    .hero .circle:nth-child(1) {
+        z-index: 2;
+        margin-left: 0;
+    }
+
+    .hero .circle:nth-child(2) {
+        z-index: 2;
+    }
+
+    .hero .circle:nth-child(3) {
+        z-index: 2;
+    }
+
+    .hero .circle img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .hero .main-picture {
+        width: 100%;
+        height: auto;
+        margin-top: 28px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+
+    .scroll-button {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        text-decoration: underline;
+        color: #0c0c0c;
+        margin-top: 46px;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 28px;
+        margin-right: 0px;
+        margin-left: 32px;
+        position: relative;
+        top: 15px;
+    }
+
+    .scroll-button:hover {
+        color: #3350e9;
+    }
+}
+
+/* Styles for Tablet */
+@media (min-width: 768px) {
+    .hero {
+        text-align: left;
+        padding: 40px;
+    }
+
+    .hero h1 {
+        font-size: 72px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .hero .circles {
+        justify-content: flex-start;
+        position: absolute;
+        top: 130px;
+        right: 32px;
+        margin-bottom: 200px;
+        margin-left: 407px;
+        display: flex;
+    }
+
+    .hero .circle {
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+    }
+
+    .responsive-text {
+        white-space: pre-line;
+    }
+
+    .scroll-button {
+        display: flex;
+        position: absolute;
+        top: 320px;
+        right: 32px;
+        bottom: 40px;
+        left: 45px;
+    }
+
+    .hero .container {
+        margin: 80px 32px 40px 32px;
+        height: 0;
+    }
+
+    .scroll-button:hover {
+        color: #3350e9;
+    }
+
+    .desktop {
+        display: inline;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .hero .main-picture {
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+        margin-left: 32px;
+        margin-right: 32px;
+        margin-bottom: 0;
+    }
+}
+
+/* Styles for PC */
+@media (min-width: 1280px) {
+    .hero {
+        text-align: left;
+        padding: 40px;
+    }
+
+    .hero h1 {
+        font-size: 72px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .hero .circles {
+        justify-content: flex-start;
+        position: absolute;
+        top: 120px;
+        right: 65px;
+        margin-bottom: 249px;
+        margin-left: 407px;
+        display: flex;
+    }
+
+    .hero .circle {
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+    }
+
+    .text-and-button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .scroll-button {
+        display: flex;
+        position: absolute;
+        top: 329px;
+        right: 65px;
+        bottom: 40px;
+        left: 451px;
+    }
+
+    .hero .container {
+        margin: 80px 65px 40px 65px;
+        height: 0;
+    }
+
+    .hero .main-picture {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        margin-left: 65px;
+        margin-right: 65px;
+        margin-bottom: 0;
+    }
+
+    .scroll-button:hover {
+        color: #3350e9;
+    }
+
+    .desktop {
+        display: inline;
+    }
+
+    .mobile {
+        display: none;
+    }
+}
