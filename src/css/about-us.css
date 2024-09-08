@@ -1,0 +1,91 @@
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.section-about-us {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.title-about-us {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 28px;
+  margin-left: 20px;
+}
+.list-about-us {
+  margin-bottom: 40px;
+}
+.list-about-us-item {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.text-about-us {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+.about-us-btn {
+  border-radius: 16px;
+  min-width: 160px;
+  height: 48px;
+  background-color: #3350e9;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  margin-bottom: 60px;
+  margin-left: 20px;
+}
+.img-about-us {
+  border-radius: 30px;
+  min-width: 335px;
+  height: 446px;
+  background: rgba(12, 12, 12, 0.2), url('path_to_image');
+  margin-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .title-about-us {
+    font-size: 48px;
+    line-height: 0.92;
+    margin-bottom: 40px;
+    margin-left: 60px;
+  }
+  .list-about-us-item {
+    margin-left: 60px;
+  }
+  .text-about-us {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .about-us-btn {
+    margin-left: 60px;
+  }
+  .img-about-us {
+    border-radius: 50px;
+    min-width: 704px;
+    height: 512px;
+    margin-bottom: 80px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .section-about-us {
+    display: flex;
+  }
+  .list-about-us {
+    margin-right: 100px;
+  }
+  .img-about-us {
+    border-radius: 50px;
+    min-width: 530px;
+    height: 532px;
+    margin-bottom: 100px;
+  }
+}
