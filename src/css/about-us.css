@@ -88,4 +88,8 @@
     height: 532px;
     margin-bottom: 100px;
   }
+  .about-us-btn:hover,
+  .about-us-btn:focus {
+    background: #1f3cd4;
+  }
 }
