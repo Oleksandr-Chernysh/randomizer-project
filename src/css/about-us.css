@@ -76,11 +76,12 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .container-text {
+  .text-cont-all {
     border-radius: 50px;
     width: 580px;
     height: 532px;
     background-color: #f3f3f3;
+    margin-right: 40px;
   }
   .section-about-us {
     display: flex;
