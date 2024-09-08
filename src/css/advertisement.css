@@ -1,0 +1,146 @@
+a {
+  text-decoration: none;
+}
+
+.advertisement-conteiner {
+  display: flex;
+  flex-direction: column;
+  background-blend-mode: multiply;
+  background-image: url(../img/advertisement/advertisement-mob.jpg);
+  background-color: rgba(12, 12, 12, 0.8);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 60px;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
+  .advertisement-conteiner {
+    background-image: url(../img/advertisement/advertisement-mob-2x.jpg);
+  }
+}
+.advertisement-visualy-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.advertisement-text {
+  max-width: 279px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  padding-bottom: 7px;
+  margin-top: 0;
+  margin-bottom: 28px;
+  margin-left: 28px;
+}
+.advertisement-span {
+  color: rgba(251, 251, 251, 0.5);
+}
+.advertisement-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 158px;
+  height: 46px;
+  cursor: pointer;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  margin-left: 28px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.advertisement-link:hover,
+.advertisement-link:focus {
+  background-color: #fbfbfb;
+  color: #0c0c0c;
+}
+
+@media screen and (min-width: 768px) {
+  .advertisement {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .advertisement-conteiner {
+    background-image: url(../img/advertisement/advertisement-tablet.jpg);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+  }
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .advertisement-conteiner {
+      background-image: url(../img/advertisement/advertisement-tablet-2x.jpg);
+    }
+  }
+  .advertisement-text {
+    max-width: 576px;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 48px;
+    line-height: 0.92;
+    padding-bottom: 8px;
+    margin-bottom: 32px;
+    margin-left: 64px;
+  }
+
+  .advertisement-link {
+    margin-left: 64px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advertisement {
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+  .advertisement-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: baseline;
+
+    background-image: url(../img/advertisement/advertisement.jpg);
+    padding-top: 83px;
+    padding-bottom: 83px;
+    gap: 140px;
+    margin-bottom: 100px;
+  }
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .advertisement-conteiner {
+      background-image: url(../img/advertisement/advertisement-2x.jpg);
+    }
+  }
+  .advertisement-text {
+    max-width: 690px;
+    padding-bottom: 9px;
+    margin-left: 80px;
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+
+  .advertisement-link {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
