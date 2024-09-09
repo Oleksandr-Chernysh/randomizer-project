@@ -1,9 +1,13 @@
-@media (min-width: 375px) {
+
+@media screen and (min-width: 375px) {
     .hero {
         text-align: left;
         padding: 28px 0;
     }
-    .hero .container {
+    .hero p {
+        font-size: 14px;
+    }
+    .container-hero {
         margin: 100px 20px 60px 20px;
         height: 0;
         padding-bottom: 60px;
@@ -93,13 +97,13 @@
     }
 }
 /* Styles for Tablet */
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .hero {
         text-align: left;
-        padding: 40px;
+        padding: 40px 0;
     }
     .hero h1 {
-        font-size: 72px;
+        font-size: 70px;
     }
     .hero p {
         font-size: 16px;
@@ -108,14 +112,14 @@
         justify-content: flex-start;
         position: absolute;
         top: 130px;
-        right: 32px;
-        margin-bottom: 200px;
-        margin-left: 407px;
+        right: 11px;
+        margin-bottom: 240px;
+        margin-left: 32px;
         display: flex;
     }
     .hero .circle {
-        width: 60px;
-        height: 60px;
+        width: 56px;
+        height: 56px;
         border-radius: 100%;
     }
     .responsive-text {
@@ -126,12 +130,10 @@
         position: absolute;
         top: 320px;
         right: 32px;
-        bottom: 40px;
         left: 45px;
     }
-    .hero .container {
-        margin: 80px 32px 40px 32px;
-        height: 0;
+    .container-hero {
+        margin: 80px 11px 60px 32px;
     }
     .scroll-button:hover {
         color: #3350e9;
@@ -152,10 +154,10 @@
     }
 }
 /* Styles for PC */
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
     .hero {
         text-align: left;
-        padding: 40px;
+        padding: 40px 0;
     }
     .hero h1 {
         font-size: 72px;
@@ -190,7 +192,7 @@
         bottom: 40px;
         left: 451px;
     }
-    .hero .container {
+        .container-hero {
         margin: 80px 65px 40px 65px;
         height: 0;
     }
