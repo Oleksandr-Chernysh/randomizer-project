@@ -121,12 +121,17 @@
   }
   .img-about-us {
     border-radius: 50px;
-    min-width: 530px;
+    width: 530px;
     height: 532px;
     margin-bottom: 100px;
   }
   .about-us-btn:hover,
   .about-us-btn:focus {
     background: #1f3cd4;
+  }
+  .img-div {
+    border-radius: 50px;
+    width: 530px;
+    height: 532px;
   }
 }
