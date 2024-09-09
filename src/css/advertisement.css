@@ -1,7 +1,10 @@
 a {
   text-decoration: none;
 }
-
+.advertisement {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 .advertisement-conteiner {
   display: flex;
   flex-direction: column;
@@ -15,6 +18,8 @@ a {
   padding-top: 60px;
   padding-bottom: 60px;
   margin-bottom: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 2dppx),
@@ -75,15 +80,13 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .advertisement {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
   .advertisement-conteiner {
     background-image: url(./img/advertisement/advertisement-tablet.jpg);
     padding-top: 80px;
     padding-bottom: 80px;
     margin-bottom: 80px;
+    margin-left: 32px;
+    margin-right: 32px;
   }
   @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 2dppx),
@@ -108,21 +111,18 @@ a {
 }
 
 @media screen and (min-width: 1280px) {
-  .advertisement {
-    padding-left: 65px;
-    padding-right: 65px;
-  }
   .advertisement-conteiner {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: baseline;
-
     background-image: url(./img/advertisement/advertisement.jpg);
     padding-top: 83px;
     padding-bottom: 83px;
     gap: 140px;
     margin-bottom: 100px;
+    margin-left: 65px;
+    margin-right: 65px;
   }
   @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 2dppx),
@@ -136,6 +136,7 @@ a {
     margin-left: 80px;
     margin-bottom: 0;
     margin-right: 0;
+    padding-bottom: 0;
   }
 
   .advertisement-link {
