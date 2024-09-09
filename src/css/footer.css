@@ -22,6 +22,7 @@ a{
     background-color: #0c0c0c;
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 .foot-contacts{
     width: 279px;
