@@ -6,7 +6,7 @@ a {
   display: flex;
   flex-direction: column;
   background-blend-mode: multiply;
-  background-image: url(../img/advertisement/advertisement-mob.jpg);
+  background-image: url(./img/advertisement/advertisement-mob.jpg);
   background-color: rgba(12, 12, 12, 0.8);
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,7 +20,7 @@ a {
   (min-resolution: 2dppx),
   (min-resolution: 192dpi) {
   .advertisement-conteiner {
-    background-image: url(../img/advertisement/advertisement-mob-2x.jpg);
+    background-image: url(./img/advertisement/advertisement-mob-2x.jpg);
   }
 }
 .advertisement-visualy-hidden {
@@ -80,7 +80,7 @@ a {
     padding-right: 32px;
   }
   .advertisement-conteiner {
-    background-image: url(../img/advertisement/advertisement-tablet.jpg);
+    background-image: url(./img/advertisement/advertisement-tablet.jpg);
     padding-top: 80px;
     padding-bottom: 80px;
     margin-bottom: 80px;
@@ -89,7 +89,7 @@ a {
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
     .advertisement-conteiner {
-      background-image: url(../img/advertisement/advertisement-tablet-2x.jpg);
+      background-image: url(./img/advertisement/advertisement-tablet-2x.jpg);
     }
   }
   .advertisement-text {
@@ -118,7 +118,7 @@ a {
     flex-direction: row;
     align-items: baseline;
 
-    background-image: url(../img/advertisement/advertisement.jpg);
+    background-image: url(./img/advertisement/advertisement.jpg);
     padding-top: 83px;
     padding-bottom: 83px;
     gap: 140px;
@@ -128,7 +128,7 @@ a {
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
     .advertisement-conteiner {
-      background-image: url(../img/advertisement/advertisement-2x.jpg);
+      background-image: url(./img/advertisement/advertisement-2x.jpg);
     }
   }
   .advertisement-text {
