@@ -15,7 +15,7 @@
   margin-bottom: 20px;
 }
 .text-container {
-  margin-left: 20px;
+  /* margin-left: 20px; */
   margin-right: 20px;
 }
 .title-about-us {
@@ -116,9 +116,6 @@
     display: flex;
   }
 
-  .list-about-us {
-    margin-right: 100px;
-  }
   .about-us-btn {
     margin-bottom: 80px;
   }
