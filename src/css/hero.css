@@ -1,3 +1,4 @@
+
 .hero-container-img img {
     display: block;
     width: 100%;
@@ -187,7 +188,6 @@ p {
         margin-bottom: 40px;
         padding-top: 80px;
     }
-
     .scroll-down {
         font-weight: 500;
         font-size: 20px;
