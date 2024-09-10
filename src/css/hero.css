@@ -1,20 +1,14 @@
-img{
+.hero img{
     display: block;
     width: 100%;
     min-height: auto;
 }
 
-h1, h2, h3{
-    margin: 0;
-    font-family: 'Gilroy', sans-serif;
-}
-
 body, p{
     margin: 0;
-    font-size: 14px;
 }
 
-p{
+.hero p{
 font-family: 'Gilroy', sans-serif;
 font-weight: 500;
 font-size: 16px;
