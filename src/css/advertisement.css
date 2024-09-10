@@ -14,8 +14,6 @@ a {
   border-radius: 30px;
   padding-top: 60px;
   padding-bottom: 60px;
-  margin-left: 4px;
-  margin-right: 4px;
   margin-bottom: 60px;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2),
@@ -81,8 +79,6 @@ a {
     background-image: url(../img/advertisement/advertisement-tablet.jpg);
     padding-top: 80px;
     padding-bottom: 80px;
-    margin-left: 16px;
-    margin-right: 16px;
     margin-bottom: 80px;
   }
   @media screen and (-webkit-min-device-pixel-ratio: 2),
@@ -117,8 +113,6 @@ a {
     background-image: url(../img/advertisement/advertisement.jpg);
     padding-top: 83px;
     padding-bottom: 83px;
-    margin-left: 49px;
-    margin-right: 49px;
     gap: 140px;
     margin-bottom: 100px;
   }
