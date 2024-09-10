@@ -22,6 +22,19 @@ p {
     color: rgba(12, 12, 12, 0.7);
 }
 
+body, p{
+    margin: 0;
+}
+
+.hero p{
+font-family: 'Gilroy', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: -0.02em;
+color: rgba(12, 12, 12, 0.7);
+}
+
 .hero h1 {
     font-weight: 600;
     font-size: 40px;
@@ -31,12 +44,11 @@ p {
     margin-bottom: 20px;
 }
 
-
 .hero-span {
     color: #3350E9;
 }
 
-.scroll-down {
+.scroll-down{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.28571;
@@ -47,65 +59,67 @@ p {
     margin-top: 28px;
 }
 
-.hero-icons {
+.hero-icons{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
 
 }
 
-.hero-icons-img {
+.hero-icons-img{
+
     height: 44px;
     position: relative;
 }
 
-.hero-icons-img-human,
-.hero-icons-img-human-2,
-.hero-icons-img-human-3 {
+.hero-icons-img-human, .hero-icons-img-human-2, .hero-icons-img-human-3{
+
     width: 44px;
     height: 44px;
 }
 
-.hero-icons-img-human-2 {
+.hero-icons-img-human-2{
+
     position: absolute;
     left: 32px;
     top: 0;
 }
 
-.hero-icons-img-human-3 {
+.hero-icons-img-human-3{
+
     position: absolute;
     left: 64px;
     top: 0;
 }
 
-.hero_top {
+
+.hero_top{
     margin-bottom: 28px;
     padding-top: 60px;
 }
 
 @media screen and (min-width: 768px) {
-    .hero_top {
+    .hero_top{
         display: flex;
         justify-content: space-between;
-    }
 
     .hero-text {
         width: 557px;
     }
 
-    .hero-icons {
+    .hero-icons{
         flex-direction: column;
         width: 136px;
     }
 
-    .hero-icons-img {
+    .hero-icons-img{
+
         width: 100%;
         height: 56px;
     }
 
-    .hero-icons-img-human,
-    .hero-icons-img-human-2,
-    .hero-icons-img-human-3 {
+-icons-img-human, .hero-icons-img-human-2, .hero-icons-img-human-3{
+
         width: 56px;
         height: 56px;
     }
@@ -116,6 +130,12 @@ p {
     }
 
     .hero-icons-img-human-3 {
+    .hero-icons-img-human-2{
+        left: 41px;
+        top: 0;
+    }
+    
+    .hero-icons-img-human-3{
         left: 80px;
         top: 0;
     }
@@ -128,12 +148,11 @@ p {
         color: #0c0c0c;
     }
 
-    .hero_top {
+    .hero_top{
         margin-bottom: 40px;
         padding-top: 80px;
     }
-
-    .scroll-down {
+    .scroll-down{
         font-weight: 500;
         font-size: 20px;
         line-height: 1;
@@ -142,6 +161,7 @@ p {
         text-decoration-skip-ink: none;
         color: #0c0c0c;
         margin-top: 28px;
+
     }
 }
 
@@ -159,22 +179,28 @@ p {
     .hero-icons-img {
         height: 60px;
     }
+    .hero-text{
+        width: 597px;
+    }
+    .hero-icons{
+        flex-direction: column;
+        width: 146px;
+    }
 
-    .hero-icons-img-human,
-    .hero-icons-img-human-2,
-    .hero-icons-img-human-3 {
-        width: 60px;
+    .hero-icons-img{
         height: 60px;
     }
 
+    .hero-icons-img-human, .hero-icons-img-human-2, .hero-icons-img-human-3{
+        width: 60px;
+        height: 60px;
+    }
     p {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.28571;
         letter-spacing: -0.02em;
         color: rgba(12, 12, 12, 0.7);
-    }
-
     .hero h1 {
         font-weight: 600;
         font-size: 72px;
@@ -182,13 +208,11 @@ p {
         letter-spacing: -0.02em;
         color: #0c0c0c;
     }
-
-    .hero_top {
+    .hero_top{
         margin-bottom: 40px;
         padding-top: 80px;
     }
-
-    .scroll-down {
+    .scroll-down{
         font-weight: 500;
         font-size: 20px;
         line-height: 1;
@@ -197,5 +221,6 @@ p {
         text-decoration-skip-ink: none;
         color: #0c0c0c;
         margin-top: 28px;
+
     }
 }

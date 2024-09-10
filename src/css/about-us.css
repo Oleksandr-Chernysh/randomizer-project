@@ -1,0 +1,138 @@
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.section-about-us {
+  margin-bottom: 60px;
+}
+.text-cont-all {
+  border-radius: 30px;
+  width: 335px;
+  height: 446px;
+  background-color: #f3f3f3;
+  margin-bottom: 20px;
+}
+.text-container {
+  /* margin-left: 20px; */
+  margin-right: 20px;
+}
+.title-about-us {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 28px;
+  margin-left: 20px;
+  padding-top: 40px;
+}
+.list-about-us {
+  margin-bottom: 40px;
+}
+.list-about-us-item {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.text-about-us {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+.about-us-btn {
+  border-radius: 16px;
+  min-width: 160px;
+  height: 48px;
+  background-color: #3350e9;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+.img-about-us {
+  border-radius: 30px;
+  min-width: 335px;
+  height: 446px;
+  background: rgba(12, 12, 12, 0.2), url('path_to_image');
+}
+
+@media screen and (min-width: 768px) {
+  .section-about-us {
+    margin-bottom: 80px;
+  }
+  .text-cont-all {
+    border-radius: 50px;
+    width: 704px;
+    height: 512px;
+    background-color: #f3f3f3;
+    margin-bottom: 40px;
+  }
+  .text-container {
+    margin-bottom: 60px;
+    margin-right: 60px;
+  }
+
+  .title-about-us {
+    font-size: 48px;
+    line-height: 0.92;
+    margin-bottom: 40px;
+    margin-left: 60px;
+    padding-top: 80px;
+  }
+  .list-about-us-item {
+    margin-left: 60px;
+  }
+  .text-about-us {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .about-us-btn {
+    margin-left: 60px;
+  }
+  .img-about-us {
+    border-radius: 50px;
+    max-width: 704px;
+    height: 512px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .section-about-us {
+    margin-bottom: 100px;
+  }
+  .text-cont-all {
+    border-radius: 50px;
+    min-width: 580px;
+    min-height: 532px;
+    background-color: #f3f3f3;
+    margin-right: 40px;
+    margin-bottom: 0px;
+  }
+  .text-container {
+    margin-bottom: 40px;
+  }
+  .section-about-us {
+    display: flex;
+  }
+
+  .about-us-btn {
+    margin-bottom: 80px;
+  }
+  .img-about-us {
+    border-radius: 50px;
+    max-width: 530px;
+    height: 532px;
+  }
+  .about-us-btn:hover,
+  .about-us-btn:focus {
+    background: #1f3cd4;
+  }
+  .img-div {
+    max-width: 530px;
+    height: 532px;
+  }
+}
