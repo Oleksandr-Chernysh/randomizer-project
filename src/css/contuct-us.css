@@ -1,5 +1,5 @@
-.section {
-    margin-bottom: 60px;
+#section-contact-us{
+    margin-top: 100px;
 }
 
 .container-contact-us {
@@ -92,9 +92,9 @@
 }
 
 @media screen and (min-width: 768px){
-.section{
-    margin-bottom: 80px;
-}
+    #section-contact-us{
+        margin-top: 100px;
+    }
 .container-contact-us{
     padding-left: 32px;
     padding-right: 32px;
@@ -135,9 +135,9 @@
 }
 }
 @media screen and (min-width: 1280px){
-.section{
-    margin-bottom: 100px;
-}
+    #section-contact-us{
+        margin-top: 100px;
+    }
 .container-contact-us{
     padding-left: 65px;
     padding-right: 65px;

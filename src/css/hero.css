@@ -1,7 +1,8 @@
-.hero img{
+.hero-container-img img{
     display: block;
     width: 100%;
     min-height: auto;
+    padding: 0;
 }
 
 body, p{
