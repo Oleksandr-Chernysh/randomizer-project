@@ -64,16 +64,11 @@
     min-width: 320px;
     max-width: 375px;
     margin: 0 auto;
-    padding: 0 16px;
   }
   .reviews-section {
     background-color: #fbfbfb;
-    padding: 0 20px;
     margin: 0;
     width: 100%;
-  }
-  .reviews-section.container {
-    padding: 0 20px;
   }
 
   .reviews-section-title {
@@ -100,12 +95,10 @@
   }
   .reviews-section {
     background-color: #fbfbfb;
-    padding: 0 32px;
     margin: 0;
     width: 100%;
   }
   .reviews-section.container {
-    padding: 0 32px;
     margin: 0 auto;
   }
   /* Hide all list items starting from the third one */
@@ -122,12 +115,10 @@
   }
   .reviews-section {
     background-color: #fbfbfb;
-    padding: 0 65px;
     margin: 0;
     width: 100%;
   }
   .reviews-section.container {
-    padding: 0 65px;
     margin: 0 auto;
   }
 
