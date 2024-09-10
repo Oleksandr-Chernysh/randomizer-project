@@ -86,9 +86,6 @@
     margin-bottom: 24px;
   }
 
-  .reviews-wrap {
-    /* width: 335px; */
-  }
   .reviews-list .reviews-list-item:nth-child(2) {
     display: block;
   }
