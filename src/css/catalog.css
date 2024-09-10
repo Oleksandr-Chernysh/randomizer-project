@@ -11,7 +11,7 @@
     letter-spacing: -0.02em;
     margin-top: 0;
     margin-bottom: 24px;
-    width: 100%;
+    max-width: 100%;
 }
 
 .catalog-list {
@@ -30,15 +30,14 @@
     margin-bottom: 20px;
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 30px;
-    width: 335px;
-    height: 364px;
+    max-width: 368px;
     background-color: #f3f3f3;
 }
 
 .catalog-item-container {
     display: flex;
     flex-direction: column;
-    margin: 24px 28px;
+    padding: 24px 28px;
 }
 
 .catalog-item-picture {
@@ -53,8 +52,7 @@
 }
 
 .catalog-img {
-    width: 208px;
-    height: 226px;
+    width: 100%;
 }
 
 .catalog-title {
@@ -143,7 +141,7 @@
     }
 
     .catalog-item-container {
-        margin: 24px 32px;
+        padding: 24px 32px;
     }
 
     .catalog-picture {
@@ -153,8 +151,7 @@
     }
 
     .catalog-img {
-        width: 268px;
-        height: 292px;
+        width: 100%;
     }
 
     .catalog-title-solar {
@@ -197,8 +194,7 @@
     }
 
     .catalog-img {
-        width: 292px;
-        height: 292px;
+        width: 100%;
     }
 
     .catalog-title-laptop {

@@ -36,7 +36,6 @@
   border-radius: 30px;
   padding: 32px 36px;
   /* width: 344px; */
-  height: 272px;
   background-color: #f3f3f3;
 }
 .reviewer-photo {
@@ -87,7 +86,6 @@
 
   .reviews-wrap {
     /* width: 335px; */
-    height: 262px;
   }
 
   .reviews-list .reviews-list-item:not(:first-child) {
