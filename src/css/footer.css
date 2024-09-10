@@ -18,7 +18,6 @@ a{
     border-radius: 30px;
     padding: 40px 28px 28px 28px;
     width: 335px;
-    height: 581px;
     background-color: #0c0c0c;
     display: flex;
     flex-direction: column;
@@ -141,6 +140,7 @@ a{
     width: 83px;
     text-align: right;
     text-align: left;
+    font-style: normal;
 }
 
 .foot-end{
