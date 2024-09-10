@@ -25,12 +25,13 @@
 
 .burger-btn {
   padding: 0;
-  background-color: red;
+  background-color: transparent;
 }
 
 .burger-icon {
   display: block;
-  fill: #0c0c0c;
+  fill: transparent;
+  stroke: #0c0c0c;
 }
 
 @media screen and (min-width: 768px) {
