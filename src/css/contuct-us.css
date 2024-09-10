@@ -172,7 +172,6 @@
     background-color: #1f3cd4;
 }
 .contact-us-photo{
-    flex-shrink: 0;
     width: 50%;
 }
 .contact-us-photo img {

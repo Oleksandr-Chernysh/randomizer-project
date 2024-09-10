@@ -4,8 +4,6 @@
   height: auto;
 }
 .section-about-us {
-  padding-right: 20px;
-  padding-left: 20px;
   margin-bottom: 60px;
 }
 .text-cont-all {
@@ -66,8 +64,6 @@
 @media screen and (min-width: 768px) {
   .section-about-us {
     margin-bottom: 80px;
-    padding-right: 32px;
-    padding-left: 32px;
   }
   .text-cont-all {
     border-radius: 50px;
@@ -107,8 +103,6 @@
 @media screen and (min-width: 1280px) {
   .section-about-us {
     margin-bottom: 100px;
-    padding-right: 60px;
-    padding-left: 60px;
   }
   .text-cont-all {
     border-radius: 50px;
