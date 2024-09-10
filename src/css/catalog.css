@@ -1,6 +1,6 @@
 /* #region catalog */
 .section-catalog {
-    padding: 0 20px;
+    padding: 0 0 60px;
     width: 100%;
 }
 
@@ -11,7 +11,7 @@
     letter-spacing: -0.02em;
     margin-top: 0;
     margin-bottom: 24px;
-    width: 100%;
+    max-width: 100%;
 }
 
 .catalog-list {
@@ -30,15 +30,14 @@
     margin-bottom: 20px;
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 30px;
-    width: 335px;
-    height: 364px;
+    max-width: 368px;
     background-color: #f3f3f3;
 }
 
 .catalog-item-container {
     display: flex;
     flex-direction: column;
-    margin: 24px 28px;
+    padding: 24px 28px;
 }
 
 .catalog-item-picture {
@@ -53,8 +52,7 @@
 }
 
 .catalog-img {
-    width: 208px;
-    height: 226px;
+    width: 100%;
 }
 
 .catalog-title {
@@ -65,13 +63,6 @@
     margin-top: 0;
     margin-bottom: 8px;
     position: relative;
-}
-
-.catalog-title-solar {
-    display: flex;
-    position: absolute;
-    top: 0;
-    right: 30px;
 }
 
 .catalog-title-desktop {
@@ -107,7 +98,7 @@
     background-color: #3350e9;
     display: block;
     border: none;
-    margin: 20px auto 60px;
+    margin: 0 auto;
 }
 
 .catalog-btn:hover,
@@ -116,6 +107,10 @@
 }
 
 @media screen and (min-width: 768px) {
+
+    .section-catalog{
+        padding-bottom: 80px;
+    }
 
 
     .section-catalog-title {
@@ -132,7 +127,6 @@
         flex-wrap: wrap;
         gap: 16px;
         row-gap: 32px;
-        margin-bottom: 80px;
     }
 
     .catalog-item {
@@ -143,7 +137,7 @@
     }
 
     .catalog-item-container {
-        margin: 24px 32px;
+        padding: 24px 32px;
     }
 
     .catalog-picture {
@@ -153,8 +147,7 @@
     }
 
     .catalog-img {
-        width: 268px;
-        height: 292px;
+        width: 100%;
     }
 
     .catalog-title-solar {
@@ -175,15 +168,20 @@
     .catalog-btn {
         display: none;
     }
+
+    
 }
 
 @media screen and (min-width: 1280px) {
+
+    .section-catalog{
+        padding-bottom: 100px;
+    }
 
 
     .catalog-list {
         gap: 23px;
         row-gap: 32px;
-        margin-bottom: 100px;
     }
 
     .catalog-item {
@@ -197,8 +195,7 @@
     }
 
     .catalog-img {
-        width: 292px;
-        height: 292px;
+        width: 100%;
     }
 
     .catalog-title-laptop {
