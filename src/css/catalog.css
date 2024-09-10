@@ -116,7 +116,10 @@
 }
 
 @media screen and (min-width: 768px) {
-
+    .container.section-catalog {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
 
     .section-catalog-title {
         font-weight: 600;
@@ -178,7 +181,10 @@
 }
 
 @media screen and (min-width: 1280px) {
-
+    .container.section-catalog {
+        padding-left: 65px;
+        padding-right: 65px;
+    }
 
     .catalog-list {
         gap: 23px;

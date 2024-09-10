@@ -1,5 +1,5 @@
-#section-contact-us{
-    margin-top: 100px;
+.section {
+    margin-bottom: 60px;
 }
 
 .container-contact-us {
@@ -36,7 +36,8 @@
     margin-bottom: 28px;
     text-align: start;
 }
-
+.input-box {
+}
 .input-frame {
     border: 1px solid rgba(12, 12, 12, 0.15);
     background-color: transparent;
@@ -91,9 +92,9 @@
 }
 
 @media screen and (min-width: 768px){
-    #section-contact-us{
-        margin-top: 100px;
-    }
+.section{
+    margin-bottom: 80px;
+}
 .container-contact-us{
     padding-left: 32px;
     padding-right: 32px;
@@ -134,9 +135,9 @@
 }
 }
 @media screen and (min-width: 1280px){
-    #section-contact-us{
-        margin-top: 100px;
-    }
+.section{
+    margin-bottom: 100px;
+}
 .container-contact-us{
     padding-left: 65px;
     padding-right: 65px;
@@ -171,6 +172,7 @@
     background-color: #1f3cd4;
 }
 .contact-us-photo{
+    flex-shrink: 0;
     width: 50%;
 }
 .contact-us-photo img {
