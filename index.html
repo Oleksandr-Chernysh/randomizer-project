@@ -6,7 +6,7 @@
     <title>Randomizer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="icon" href="/randomizer-project/assets/favicon-CL9ZxWdQ.ico" type="image/x-icon">
-    <link rel="stylesheet" crossorigin href="/randomizer-project/assets/index-CJL87Ehq.css">
+    <link rel="stylesheet" crossorigin href="/randomizer-project/assets/index-DH0PIpWD.css">
   </head>
   <body>
     
@@ -458,7 +458,76 @@
         </li>
       </ul>
     </section>
-      
+      <!-- #region contact-us-->
+    <section class="section" id="section-contact-us">
+        <div class="container container-contact-us">
+            <h2 class="title-contact-us">Contact Us</h2>
+            <div class="container-form">
+                <div class="contact-us-box">
+                    <p class="text">
+                        Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back to you shortly.
+                    </p>
+                    <form class="input-box">
+                        <label class="contact-us-label" for="user-name">
+                            <input
+                            class="input-frame"
+                            type="text" id="user-name"
+                            name="user-name"
+                            placeholder="Name" required>
+                        </label>
+                        <label class="contact-us-label" for="user-email">
+                            <input
+                            class="input-frame"
+                            type="email" id="user-email"
+                            name="user-email" placeholder="Email"
+                            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required>
+                        </label>
+                        <label class="contact-us-label" for="user-phone">
+                            <input
+                            class="input-frame"
+                            type="tel" id="user-phone"
+                            name="user-phone" placeholder="+380"
+                            pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+                            title="(+380-XX-XXX-XX-XX)"
+                            value="+380"
+                            required>
+                        </label>
+                        <label class="contact-us-label-comment" for="user-comment">
+                            <textarea
+                            class="input-textarea" id="user-comment"
+                            name="user-comment" placeholder="Comment">
+                            </textarea>
+                        </label>
+                        <button class="contact-us-btn" type="submit">Send</button>
+                    </form>
+                </div>
+                <div class="contact-us-photo">
+                    <picture>
+                        <source
+                        srcset="/randomizer-project/assets/contact-us-I4f-0B0B.jpg 1x, /randomizer-project/assets/contact-us-2x-C7x5uosh.jpg 2x"
+                        media="(min-width: 1280px)"
+                        />
+                        <source
+                        srcset="/randomizer-project/assets/contact-us-tablet-BIKxXVD2.jpg 1x, /randomizer-project/assets/contact-us-tablet-2x-BcveysVM.jpg 2x"
+                        media="(min-width: 768px)"
+                        />
+                        <source
+                        srcset="/randomizer-project/assets/contact-us-mob-CVkl335v.jpg 1x, /randomizer-project/assets/contact-us-mob-2x-ZSgqBX9o.jpg 2x"
+                        media="(max-width: 767px)"
+                        />
+                        <img class="contact-us-photo"
+                        src="/randomizer-project/assets/contact-us-I4f-0B0B.jpg"
+                        alt="contact-us watch photo"
+                        width="335"
+                        />
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- #endregion contact-us -->
+
+
     </main>
 
     <footer class="sec-footer">
