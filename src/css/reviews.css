@@ -62,11 +62,7 @@
   display: none;
 }
 @media screen and (min-width: 768px) {
-  .container {
-    min-width: 320px;
-    max-width: 375px;
-    margin: 0 auto;
-  }
+
   .reviews-section {
     background-color: #fbfbfb;
     margin: 0;
@@ -88,9 +84,7 @@
 
 }
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 768px;
-  }
+
   .reviews-section {
     background-color: #fbfbfb;
     margin: 0;
