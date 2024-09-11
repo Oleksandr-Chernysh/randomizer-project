@@ -1,7 +1,7 @@
 a {
   text-decoration: none;
 }
-.advertisement {
+.container.advertisement {
   padding-bottom: 60px;
 }
 .advertisement-conteiner {
@@ -69,10 +69,8 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .advertisement {
+  .container.advertisement {
     padding-bottom: 80px;
-    padding-left: 32px;
-    padding-right: 32px;
   }
   .advertisement-conteiner {
     background-image: url(./img/advertisement/advertisement-tablet.jpg);
@@ -97,10 +95,8 @@ a {
 }
 
 @media screen and (min-width: 1280px) {
-  .advertisement {
+  .container.advertisement {
     padding-bottom: 100px;
-    padding-left: 65px;
-    padding-right: 65px;
   }
   .advertisement-conteiner {
     display: flex;
