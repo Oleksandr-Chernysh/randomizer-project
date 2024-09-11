@@ -1,10 +1,12 @@
 a {
   text-decoration: none;
 }
-
-.adv-container{
+.advertisement {
+  padding-bottom: 60px;
+}
+.advertisement-conteiner {
   background-blend-mode: multiply;
-  background-image: url(../img/advertisement/advertisement-mob.jpg);
+  background-image: url(./img/advertisement/advertisement-mob.jpg);
   background-color: rgba(12, 12, 12, 0.8);
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,12 +14,11 @@ a {
   border-radius: 30px;
   padding: 60px 28px;
 }
-
 @media screen and (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 2dppx),
   (min-resolution: 192dpi) {
-  .adv-conteiner {
-    background-image: url(../img/advertisement/advertisement-mob-2x.jpg);
+  .advertisement-conteiner {
+    background-image: url(./img/advertisement/advertisement-mob-2x.jpg);
   }
 }
 .advertisement-visualy-hidden {
@@ -32,22 +33,22 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-.adv-text {
+.advertisement-text {
   font-weight: 600;
   font-size: 32px;
   line-height: 1;
   letter-spacing: -0.02em;
   color: #fbfbfb;
+  padding-bottom: 7px;
   margin-bottom: 28px;
 }
-
-.adv-span {
+.advertisement-span {
   color: rgba(251, 251, 251, 0.5);
 }
-
-.adv-btn {
-  display: inline-block;
+.advertisement-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 158px;
   height: 46px;
   cursor: pointer;
@@ -59,51 +60,67 @@ a {
   color: #fbfbfb;
   border: 1px solid rgba(251, 251, 251, 0.15);
   border-radius: 16px;
-  padding: 15px 0;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.adv-btn:hover,
-.adv-btn:focus {
+.advertisement-link:hover,
+.advertisement-link:focus {
   background-color: #fbfbfb;
   color: #0c0c0c;
 }
 
 @media screen and (min-width: 768px) {
-  .adv-conteiner {
-    background-image: url(../img/advertisement/advertisement-tablet.jpg);
-
+  .advertisement {
+    padding-bottom: 80px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .advertisement-conteiner {
+    background-image: url(./img/advertisement/advertisement-tablet.jpg);
+    padding: 80px 64px;
   }
   @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
-    .adv-conteiner {
-      background-image: url(../img/advertisement/advertisement-tablet-2x.jpg);
+    .advertisement-conteiner {
+      background-image: url(./img/advertisement/advertisement-tablet-2x.jpg);
     }
   }
-  .adv-text {
+  .advertisement-text {
     font-size: 48px;
     line-height: 0.92;
+    padding-bottom: 8px;
+    margin-bottom: 32px;
+  }
+
+  .advertisement-link {
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .adv-container {
+  .advertisement {
+    padding-bottom: 100px;
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+  .advertisement-conteiner {
     display: flex;
-    justify-content: space-between;
-    background-image: url(../img/advertisement/advertisement.jpg);
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: baseline;
+    background-image: url(./img/advertisement/advertisement.jpg);
     padding: 83px 80px;
+    gap: 140px;
   }
   @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
-    .adv-conteiner {
-      background-image: url(../img/advertisement/advertisement-2x.jpg);
+    .advertisement-conteiner {
+      background-image: url(./img/advertisement/advertisement-2x.jpg);
     }
   }
-  .adv-text {
+  .advertisement-text {
     max-width: 690px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
-
 }
