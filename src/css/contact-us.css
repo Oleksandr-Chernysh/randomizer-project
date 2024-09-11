@@ -67,6 +67,7 @@
   line-height: 1.29;
   color: #0c0c0c;
   outline: none;
+  resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-textarea::placeholder {
