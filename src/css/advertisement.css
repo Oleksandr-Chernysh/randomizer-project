@@ -1,0 +1,109 @@
+a {
+  text-decoration: none;
+}
+
+.adv-container{
+  background-blend-mode: multiply;
+  background-image: url(../img/advertisement/advertisement-mob.jpg);
+  background-color: rgba(12, 12, 12, 0.8);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+  padding: 60px 28px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
+  .adv-conteiner {
+    background-image: url(../img/advertisement/advertisement-mob-2x.jpg);
+  }
+}
+.advertisement-visualy-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.adv-text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 28px;
+}
+
+.adv-span {
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.adv-btn {
+  display: inline-block;
+  width: 158px;
+  height: 46px;
+  cursor: pointer;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  padding: 15px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.adv-btn:hover,
+.adv-btn:focus {
+  background-color: #fbfbfb;
+  color: #0c0c0c;
+}
+
+@media screen and (min-width: 768px) {
+  .adv-conteiner {
+    background-image: url(../img/advertisement/advertisement-tablet.jpg);
+
+  }
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .adv-conteiner {
+      background-image: url(../img/advertisement/advertisement-tablet-2x.jpg);
+    }
+  }
+  .adv-text {
+    font-size: 48px;
+    line-height: 0.92;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .adv-container {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../img/advertisement/advertisement.jpg);
+    padding: 83px 80px;
+  }
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .adv-conteiner {
+      background-image: url(../img/advertisement/advertisement-2x.jpg);
+    }
+  }
+  .adv-text {
+    max-width: 690px;
+    margin-bottom: 0px;
+  }
+
+}

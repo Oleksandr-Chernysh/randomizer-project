@@ -29,7 +29,7 @@ a {
 
 button {
   cursor: pointer;
-  bottom: none;
+  border: none;
 }
 
 img {
